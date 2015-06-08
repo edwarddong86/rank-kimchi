@@ -1,0 +1,221 @@
+<html>
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <link href="../css/default.css" rel="stylesheet" type="text/css"/>
+  <script src="http://code.jquery.com/jquery.js"></script>
+</head>
+<body>
+<div class="container-fluid">
+  <div class="row">
+    <nav class="navbar navbar-default">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#"><img class="img-responsive" alt="Brand" src="../images/rankkimchiguy_360.png"></a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li><a href="../index.html">Home<span class="sr-only">(current)</span></a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Movies <span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="bitter.html">Trending</a></li>
+              <li><a href="devil.html">Highest Rated</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Critic <span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="critic.html">Favorite Critics</a></li>
+              <li><a href="critic.html">Highest Rated Critics</a></li>
+              <li><a href="signup.html">Be a Critic</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Faq <span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="../index.html#about">About Rank</a></li>
+              <li><a href="../index.html#howto">How to Rank</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Follow Us <span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="#">Facebook</a></li>
+              <li><a href="#">Twitter</a></li>
+              <li><a href="#">Instagram</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="navbar-form navbar-right" role="search">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Search">
+          </div>
+          <a href="signup.html"><button type="button" class="btn btn-default navbar-right">Sign Up</button></a>
+          <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+            Login
+            <span class="caret"></span>
+          </button>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Login With Facebook</a></li>
+            <li><a href="#">Login with Google+</a></li>
+          </ul>
+        </form>
+      </div><!-- /.navbar-collapse -->
+    </nav>
+  </div>
+  <!-- end of nav -->
+  <div class="row">
+    <div class="col-md-12">
+      <div class="col-md-4 user-image">
+        <h3>Man from Nowhere</h3>
+        <a href="#"><img class="img-responsive" src="../images/nowhere-poster.jpg"/></a>
+        <h4>Users Ranking: <strong class="rank-rank">RANK!</strong></h4>
+        <form>
+          <div class="form-group">
+            <label for="rank-comment">Rank this Movie:</label>
+            <textarea class="form-control" id="rank-comment" placeholder="Comment..." rows="6"></textarea>
+          </div>
+          <div class="form-group">
+            <input type="image" src="../images/thumbsup.png" name="saveForm" class=""/>
+            <input type="image" src="../images/thumbsdown.png" name="saveForm" class=""/>
+          </div>
+        </form>
+      </div>
+      <div class="col-md-8">
+        <div class="col-md-4 col-md-offset-1 weekly-polls user-rank-polls">
+          <ol>
+            <h5><strong>Rankiest Rank</strong></h5>
+            <li><a href="devil.html">I Saw the Devil</a></li>
+            <li><a href="nowhere.html">The Man from Nowhere</a></li>
+            <li><a href="king.html">The King and the Clown</a></li>
+            <li><a href="masq.html">Masquerade</a></li>
+            <li><a href="carnival.html">A Dirty Carnival</a></li>
+          </ol>
+        </div>
+        <div class="col-md-4 col-md-offset-2 weekly-polls user-rank-polls">
+          <ol>
+            <h5><strong>Currently Trending</strong></h5>
+            <li><a href="bitter.html">A Bittersweet Life</a></li>
+            <li><a href="classic.html">The Classic</a></li>
+            <li><a href="fist.html">Crying Fist</a></li>
+            <li><a href="moment.html">A Moment to Remember</a></li>
+            <li><a href="friend.html">Friend</a></li>
+          </ol>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-md-offset-1">
+            <h4>Synopsis of <strong><em>Man from Nowhere</em></strong></h4>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-10 col-md-offset-1 panel panel-default quote-bubble">
+            <p>An ex-special agent CHA Tae-shik's only connection to the rest of the world is a little girl, So-mi, who lives nearby. Her mother, Hyo-jeong smuggles drugs from a drug trafficking organization and entrusts Tae-shik with the product, without letting him know. The traffickers find out about her smuggling and kidnap both Hyo-jeong and So-mi. The gang promises to release them if Tae-shik makes a delivery for them, however it actually is a larger plot to eliminate a rival drug ring leader. When Hyo-jeon's disemboweled body is discovered, Tae-shik realizes that So-mi's life may also be in danger. Tae-shik becomes enraged at the prospect that So-mi may already be dead and prepares for a battle, putting his own life at risk.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <h3 class="critic-reviews-header">Critic reviews for <em>Man from Nowhere</em></h3>
+            <div class="col-md-2">
+              <a href="critic.html"><img src="../images/wikipedia.jpg" class="img-responsive img-rounded"/></a>
+            </div>
+            <div class="col-md-4">
+              <div class="col-md-12 panel panel-default quote-bubble">
+                <p>Yes it is an old theme, yes it's similar to Taken, The Professiona, Man on Fire, and even other Koreans like the Trilogy of Vengeance and I Saw the Devil,but still is so cool in such unique ways that you may want to see it a couple of times while showing your American friends how independent filming is done in Asia.</p>
+              </div>
+              <div class="form-group col-md-offset-1">
+                <input type="image" src="../images/thumbsup.png" name="saveForm" class=""/>
+                <input type="image" src="../images/thumbsdown.png" name="saveForm" class=""/>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="col-md-12 panel panel-default quote-bubble">
+                <p>This Man is about as standard plot-wise as action movies get. A lone wolf type takes a little girl under his wing, the kid gets kidnapped, and he ends up having to go through heaps of bad guys in his quest to save the girl. </p>
+              </div>
+              <div class="form-group col-md-offset-1">
+                <input type="image" src="../images/thumbsup.png" name="saveForm" class=""/>
+                <input type="image" src="../images/thumbsdown.png" name="saveForm" class=""/>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <a href="critic.html"><img src="../images/critic.jpeg" class="img-responsive img-rounded"/></a>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="col-md-2">
+              <a href="critic.html"><img src="../images/anton.jpeg" class="img-responsive img-rounded"/></a>
+            </div>
+            <div class="col-md-4">
+              <div class="col-md-12 panel panel-default quote-bubble">
+                <p>Let me start off by saying that I was skeptical whether I should watch this movie because of all the comparisons here to US productions. Because while I did enjoy most of the ones named, not enough to want to see a basically South Korean copycat at the theater.</p>
+              </div>
+              <div class="form-group col-md-offset-1">
+                <input type="image" src="../images/thumbsup.png" name="saveForm" class=""/>
+                <input type="image" src="../images/thumbsdown.png" name="saveForm" class=""/>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="col-md-12 panel panel-default quote-bubble">
+                <p>There are cruel moments in the film but the film itself did not feel cruel. That is why I liked it. So often films are either mindless, or mean-spirited, and this one avoided these pit-falls.</p>
+              </div>
+              <div class="form-group col-md-offset-1">
+                <input type="image" src="../images/thumbsup.png" name="saveForm" class=""/>
+                <input type="image" src="../images/thumbsdown.png" name="saveForm" class=""/>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <a href="critic.html"><img src="../images/muppet.jpeg" class="img-responsive img-rounded"/></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- beginning of footer -->
+<footer class="well">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="col-md-4 rk-foot">
+        <p><strong>Rank Kimchi!</strong></p>
+        <a><img src="../images/rankkimchiguy_360.png"/></a>
+        <p><em>You Rank It</em></p>
+      </div>
+      <div class="col-md-4 rk-foot">
+        <p><strong>Contact</strong></p>
+        <p>1691 Kettering St</p>
+        <p>Irvine, CA 92614</p>
+        Email: <a href="mailto:edwarddong86@gmail.com">edwarddong86@gmail.com</a>
+        <p></p>
+      </div>
+      <div class="col-md-4 rk-foot">
+        <p><strong>Follow Us</strong></p>
+        </br>
+        <a href="www.facebook.com"><img src="../images/download.png"/></a>
+        &nbsp;&nbsp;
+        <a href="www.twitter.com"><img src="../images/twitter.png"/></a>
+        &nbsp;&nbsp;
+        <a href="www.instragram.com"><img src="../images/instagram.png"/></a>
+        &nbsp;&nbsp;
+      </div>
+      <div class="col-md-12 copyright">
+        <p>Copyright &copy; Rank Kimchi &nbsp;&nbsp;2015</p>
+      </div>
+    </div>
+  </div>
+</footer>
+</div>
+</div>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</body>
+</html>

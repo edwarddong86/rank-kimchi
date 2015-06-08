@@ -1,0 +1,231 @@
+<html>
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <link href="../css/default.css" rel="stylesheet" type="text/css"/>
+  <script src="http://code.jquery.com/jquery.js"></script>
+</head>
+<body>
+<div class="container-fluid">
+  <div class="row">
+    <nav class="navbar navbar-default">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#"><img class="img-responsive" alt="Brand" src="../images/rankkimchiguy_360.png"></a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li><a href="../index.html">Home<span class="sr-only">(current)</span></a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Movies <span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="bitter.html">Trending</a></li>
+              <li><a href="devil.html">Highest Rated</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Critic <span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="critic.html">Favorite Critics</a></li>
+              <li><a href="critic.html">Highest Rated Critics</a></li>
+              <li><a href="signup.html">Be a Critic</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Faq <span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="../index.html#about">About Rank</a></li>
+              <li><a href="../index.html#howto">How to Rank</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Follow Us <span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="#">Facebook</a></li>
+              <li><a href="#">Twitter</a></li>
+              <li><a href="#">Instagram</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="navbar-form navbar-right" role="search">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Search">
+          </div>
+          <a href="signup.html"><button type="button" class="btn btn-default navbar-right">Sign Up</button></a>
+          <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+            Login
+            <span class="caret"></span>
+          </button>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Login With Facebook</a></li>
+            <li><a href="#">Login with Google+</a></li>
+          </ul>
+        </form>
+      </div><!-- /.navbar-collapse -->
+    </nav>
+  </div>
+  <!-- end of nav -->
+  <div class="row">
+    <div class="col-md-12">
+      <div class="col-md-4 user-image">
+        <h3>Eberts2Thumbs</h3>
+        <a href="#"><img class="img-responsive img-rounded" src="../images/ebert.jpg"/></a>
+        <h4>Users Ranking: <strong class="rank-rank">RANK!</strong></h4>
+        <form>
+          <div class="form-group">
+            <label for="rank-comment">Rank this Critic:</label>
+            <textarea class="form-control" id="rank-comment" placeholder="Comment..." rows="6"></textarea>
+          </div>
+          <div class="form-group">
+            <input type="image" src="../images/thumbsup.png" name="saveForm" class=""/>
+            <input type="image" src="../images/thumbsdown.png" name="saveForm" class=""/>
+          </div>
+        </form>
+      </div>
+      <div class="col-md-8">
+        <div class="col-md-4 col-md-offset-1 weekly-polls user-rank-polls">
+          <ol>
+            <h5><strong>Eberts2Thumbs Recently Ranked</strong></h5>
+            <li><a href="devil.html">I Saw the Devil</a></li>
+            <li><a href="nowhere.html">The Man from Nowhere</a></li>
+            <li><a href="king.html">The King and the Clown</a></li>
+            <li><a href="masq.html">Masquerade</a></li>
+            <li><a href="carnival.html">A Dirty Carnival</a></li>
+          </ol>
+        </div>
+        <div class="col-md-4 col-md-offset-2 weekly-polls user-rank-polls">
+          <ol>
+            <h5><strong>Eberts2Thumbs Rankiest Rank</strong></h5>
+            <li><a href="bitter.html">A Bittersweet Life</a></li>
+            <li><a href="classic.html">The Classic</a></li>
+            <li><a href="fist.html">Crying Fist</a></li>
+            <li><a href="moment.html">A Moment to Remember</a></li>
+            <li><a href="friend.html">Friend</a></li>
+          </ol>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-md-offset-1">
+            <h4>Eberts2Thumbs Review of <strong><em>I Saw the Devil</em></strong></h4>
+          </div>
+          <div class="col-md-4 col-md-offset-1">
+            <h4>User Ranking: <strong class="rank-rank">RANK!</strong></h4>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-10 col-md-offset-1 panel panel-default quote-bubble">
+            <p>"The performances are electrifying. Choi, who starred in "Oldboy" (2003), brings to his role a nasty glee that's reminiscent of Robert De Niro's performance in "Cape Fear" (1991). Lee is quite adept at conveying both the thrill of pursuit and the agony of self-reflection.
+
+              This is one film that's highly unlikely to prompt an American remake. Hollywood believes in heroes, and in recent years its tolerance for antiheroes has significantly increased. But Soo-hyun is ultimately a villain — a conflicted one, to be sure, but just as prone to sadism as Kyung-chul.
+
+              That kind of moral ambiguity is a hard sell, and making it safe for the multiplexes would take major watering down."</p>
+          </div>
+        </div>
+        <div class="form-group col-md-offset-1">
+          <input type="image" src="../images/thumbsup.png" name="saveForm" class=""/>
+          <input type="image" src="../images/thumbsdown.png" name="saveForm" class=""/>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <h3 class="critic-reviews-header">Critic reviews for <em>Eberts2Thumbs</em></h3>
+          <div class="col-md-1">
+            <a href="#"><img src="../images/wikipedia.jpg" class="img-responsive img-rounded"/></a>
+          </div>
+          <div class="col-md-3">
+            <div class="col-md-12 panel panel-default quote-bubble">
+              <p>Roger Joseph Ebert was an American film critic, journalist, and screenwriter. He was a film critic for the Chicago Sun-Times from 1967 until his death in 2013. In 1975, Ebert was the first film critic to win the Pulitzer Prize for Criticism.</p>
+            </div>
+            <div class="form-group col-md-offset-1">
+              <input type="image" src="../images/thumbsup.png" name="saveForm" class=""/>
+              <input type="image" src="../images/thumbsdown.png" name="saveForm" class=""/>
+            </div>
+          </div>
+          <div class="col-md-3 col-md-offset-3">
+            <div class="col-md-12 panel panel-default quote-bubble">
+              <p>Roger Joseph Ebert was the all-time best-known, most successful movie critic in cinema history, when one thinks of his establishing a rapport with both serious cineastes and the movie-going public and reaching more movie fans via television and print than any other critic. He became the first and only movie critic to win a Pulitzer Prize </p>
+            </div>
+            <div class="form-group col-md-offset-1">
+              <input type="image" src="../images/thumbsup.png" name="saveForm" class=""/>
+              <input type="image" src="../images/thumbsdown.png" name="saveForm" class=""/>
+            </div>
+          </div>
+          <div class="col-md-1">
+            <a href="#"><img src="../images/critic.jpeg" class="img-responsive img-rounded"/></a>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="col-md-1">
+            <a href="#"><img src="../images/anton.jpeg" class="img-responsive img-rounded"/></a>
+          </div>
+          <div class="col-md-3">
+            <div class="col-md-12 panel panel-default quote-bubble">
+              <p>One of the things that I love about Ebert is that he really liked and appreciated actors and their abilities, so I'm wondering what are the actors he didn't like. I noticed in his few reviews that he didn't think much of Ryan O'Neal. Right now I can't remember anyone else. Can you?</p>
+            </div>
+            <div class="form-group col-md-offset-1">
+              <input type="image" src="../images/thumbsup.png" name="saveForm" class=""/>
+              <input type="image" src="../images/thumbsdown.png" name="saveForm" class=""/>
+            </div>
+          </div>
+          <div class="col-md-3 col-md-offset-3">
+            <div class="col-md-12 panel panel-default quote-bubble">
+              <p>That said, he certainly has never had much favorable things to say about Pauly Shore. Ebert described a spectrum of comedic actors, the top of the list was in his opinion Jim Carrey who he called a "virtuoso, a genius," and then in the last place was Chris Farley who "at least he's hardworking," but "we don't have room at the bottom ... for Pauly Shore... Even the kids with IQs of 50 are too smart for Pauly Shore."</p>
+            </div>
+            <div class="form-group col-md-offset-1">
+              <input type="image" src="../images/thumbsup.png" name="saveForm" class=""/>
+              <input type="image" src="../images/thumbsdown.png" name="saveForm" class=""/>
+            </div>
+          </div>
+          <div class="col-md-1">
+            <a href="#"><img src="../images/muppet.jpeg" class="img-responsive img-rounded"/></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- beginning of footer -->
+<footer class="well">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="col-md-4 rk-foot">
+        <p><strong>Rank Kimchi!</strong></p>
+        <a><img src="../images/rankkimchiguy_360.png"/></a>
+        <p><em>You Rank It</em></p>
+      </div>
+      <div class="col-md-4 rk-foot">
+        <p><strong>Contact</strong></p>
+        <p>1691 Kettering St</p>
+        <p>Irvine, CA 92614</p>
+        Email: <a href="mailto:edwarddong86@gmail.com">edwarddong86@gmail.com</a>
+        <p></p>
+      </div>
+      <div class="col-md-4 rk-foot">
+        <p><strong>Follow Us</strong></p>
+        </br>
+        <a href="www.facebook.com"><img src="../images/download.png"/></a>
+        &nbsp;&nbsp;
+        <a href="www.twitter.com"><img src="../images/twitter.png"/></a>
+        &nbsp;&nbsp;
+        <a href="www.instragram.com"><img src="../images/instagram.png"/></a>
+        &nbsp;&nbsp;
+      </div>
+      <div class="col-md-12 copyright">
+        <p>Copyright &copy; Rank Kimchi &nbsp;&nbsp;2015</p>
+      </div>
+    </div>
+  </div>
+</footer>
+</div>
+</div>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</body>
+</html>

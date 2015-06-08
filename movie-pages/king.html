@@ -1,0 +1,221 @@
+<html>
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <link href="../css/default.css" rel="stylesheet" type="text/css"/>
+  <script src="http://code.jquery.com/jquery.js"></script>
+</head>
+<body>
+<div class="container-fluid">
+  <div class="row">
+    <nav class="navbar navbar-default">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#"><img class="img-responsive" alt="Brand" src="../images/rankkimchiguy_360.png"></a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li><a href="../index.html">Home<span class="sr-only">(current)</span></a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Movies <span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="bitter.html">Trending</a></li>
+              <li><a href="devil.html">Highest Rated</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Critic <span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="critic.html">Favorite Critics</a></li>
+              <li><a href="critic.html">Highest Rated Critics</a></li>
+              <li><a href="signup.html">Be a Critic</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Faq <span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="../index.html#about">About Rank</a></li>
+              <li><a href="../index.html#howto">How to Rank</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Follow Us <span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="#">Facebook</a></li>
+              <li><a href="#">Twitter</a></li>
+              <li><a href="#">Instagram</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="navbar-form navbar-right" role="search">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Search">
+          </div>
+          <a href="signup.html"><button type="button" class="btn btn-default navbar-right">Sign Up</button></a>
+          <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+            Login
+            <span class="caret"></span>
+          </button>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Login With Facebook</a></li>
+            <li><a href="#">Login with Google+</a></li>
+          </ul>
+        </form>
+      </div><!-- /.navbar-collapse -->
+    </nav>
+  </div>
+  <!-- end of nav -->
+  <div class="row">
+    <div class="col-md-12">
+      <div class="col-md-4 user-image">
+        <h3>The King and the Clown</h3>
+        <a href="#"><img class="img-responsive" src="../images/king-poster.jpg"/></a>
+        <h4>Users Ranking: <strong class="rank-rank">RANK!</strong></h4>
+        <form>
+          <div class="form-group">
+            <label for="rank-comment">Rank this Movie:</label>
+            <textarea class="form-control" id="rank-comment" placeholder="Comment..." rows="6"></textarea>
+          </div>
+          <div class="form-group">
+            <input type="image" src="../images/thumbsup.png" name="saveForm" class=""/>
+            <input type="image" src="../images/thumbsdown.png" name="saveForm" class=""/>
+          </div>
+        </form>
+      </div>
+      <div class="col-md-8">
+        <div class="col-md-4 col-md-offset-1 weekly-polls user-rank-polls">
+          <ol>
+            <h5><strong>Rankiest Rank</strong></h5>
+            <li><a href="devil.html">I Saw the Devil</a></li>
+            <li><a href="nowhere.html">The Man from Nowhere</a></li>
+            <li><a href="king.html">The King and the Clown</a></li>
+            <li><a href="masq.html">Masquerade</a></li>
+            <li><a href="carnival.html">A Dirty Carnival</a></li>
+          </ol>
+        </div>
+        <div class="col-md-4 col-md-offset-2 weekly-polls user-rank-polls">
+          <ol>
+            <h5><strong>Currently Trending</strong></h5>
+            <li><a href="bitter.html">A Bittersweet Life</a></li>
+            <li><a href="classic.html">The Classic</a></li>
+            <li><a href="fist.html">Crying Fist</a></li>
+            <li><a href="moment.html">A Moment to Remember</a></li>
+            <li><a href="friend.html">Friend</a></li>
+          </ol>
+        </div>
+        <div class="row">
+          <div class="col-md-6 col-md-offset-1">
+            <h4>Synopsis of <strong><em>The King and the Clown</em></strong></h4>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-10 col-md-offset-1 panel panel-default quote-bubble">
+            <p>Soul mate minstrels Jang-sang and Gong-gil eke out a living in 14th century Korea through bawdy stories presented in a tightrope act; however, sexual interests of the rich over Gong-gil's androgynous looks impair their basic desire to entertain once too often. A line is crossed, an authority figure dies, and the pair must flee to Seoul. They soon take up with a trio of fellow minstrels and, lead by Jang-sang, present riskier shows that prove more lucrative; but, a scathing exhibition satirizing the king and his concubine puts them under arrest with a set date for execution. Forced to present themselves to the king for final judgment, they surprisingly wind up becoming his court performers, but the tyrannical king, though sensitive and intelligent, is also excessive and psychologically scarred, with the minstrel shows putting him uncomfortably in touch with buried issues over his dead mother (long ago forced to commit suicide by the court). This makes him dangerously unstable.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <h3 class="critic-reviews-header">Critic reviews for <em>The King and the Clown</em></h3>
+            <div class="col-md-2">
+              <a href="critic.html"><img src="../images/wikipedia.jpg" class="img-responsive img-rounded"/></a>
+            </div>
+            <div class="col-md-4">
+              <div class="col-md-12 panel panel-default quote-bubble">
+                <p>This movie is really popular in South Korea these days. Why ? It's not exactly a blockbuster, there is no impressive special effects. In my opinion, the two strong points of this movie are the historical background and the fictional story over it.</p>
+              </div>
+              <div class="form-group col-md-offset-1">
+                <input type="image" src="../images/thumbsup.png" name="saveForm" class=""/>
+                <input type="image" src="../images/thumbsdown.png" name="saveForm" class=""/>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="col-md-12 panel panel-default quote-bubble">
+                <p>The story starts following two clowns during their every day life. One of them looks like a woman but is actually a man. He will be in the center of major events. Questions about social position, sexuality and private life are issued. This make an interesting story although not revolutionary.</p>
+              </div>
+              <div class="form-group col-md-offset-1">
+                <input type="image" src="../images/thumbsup.png" name="saveForm" class=""/>
+                <input type="image" src="../images/thumbsdown.png" name="saveForm" class=""/>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <a href="critic.html"><img src="../images/critic.jpeg" class="img-responsive img-rounded"/></a>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="col-md-2">
+              <a href="critic.html"><img src="../images/anton.jpeg" class="img-responsive img-rounded"/></a>
+            </div>
+            <div class="col-md-4">
+              <div class="col-md-12 panel panel-default quote-bubble">
+                <p>Anyway, it's a nice movie to watch and I recommend it for people curious about the korean tradition and culture under the Joseon dynasty.</p>
+              </div>
+              <div class="form-group col-md-offset-1">
+                <input type="image" src="../images/thumbsup.png" name="saveForm" class=""/>
+                <input type="image" src="../images/thumbsdown.png" name="saveForm" class=""/>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="col-md-12 panel panel-default quote-bubble">
+                <p>There are cruel moments in the film but the film itself did not feel cruel. That is why I liked it. So often films are either mindless, or mean-spirited, and this one avoided these pit-falls.</p>
+              </div>
+              <div class="form-group col-md-offset-1">
+                <input type="image" src="../images/thumbsup.png" name="saveForm" class=""/>
+                <input type="image" src="../images/thumbsdown.png" name="saveForm" class=""/>
+              </div>
+            </div>
+            <div class="col-md-2">
+              <a href="critic.html"><img src="../images/muppet.jpeg" class="img-responsive img-rounded"/></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- beginning of footer -->
+<footer class="well">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="col-md-4 rk-foot">
+        <p><strong>Rank Kimchi!</strong></p>
+        <a><img src="../images/rankkimchiguy_360.png"/></a>
+        <p><em>You Rank It</em></p>
+      </div>
+      <div class="col-md-4 rk-foot">
+        <p><strong>Contact</strong></p>
+        <p>1691 Kettering St</p>
+        <p>Irvine, CA 92614</p>
+        Email: <a href="mailto:edwarddong86@gmail.com">edwarddong86@gmail.com</a>
+        <p></p>
+      </div>
+      <div class="col-md-4 rk-foot">
+        <p><strong>Follow Us</strong></p>
+        </br>
+        <a href="www.facebook.com"><img src="../images/download.png"/></a>
+        &nbsp;&nbsp;
+        <a href="www.twitter.com"><img src="../images/twitter.png"/></a>
+        &nbsp;&nbsp;
+        <a href="www.instragram.com"><img src="../images/instagram.png"/></a>
+        &nbsp;&nbsp;
+      </div>
+      <div class="col-md-12 copyright">
+        <p>Copyright &copy; Rank Kimchi &nbsp;&nbsp;2015</p>
+      </div>
+    </div>
+  </div>
+</footer>
+</div>
+</div>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</body>
+</html>

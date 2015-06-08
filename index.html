@@ -1,0 +1,219 @@
+<html>
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+  <link href="css/default.css" rel="stylesheet" type="text/css"/>
+  <script src="http://code.jquery.com/jquery.js"></script>
+</head>
+<body>
+<div class="container">
+  <div class="row">
+    <nav class="navbar navbar-default">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#"><img class="img-responsive" alt="Brand" src="images/rankkimchiguy_360.png"></a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li><a href="index.html">Home<span class="sr-only">(current)</span></a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Movies <span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="movie-pages/bitter.html">Trending</a></li>
+              <li><a href="movie-pages/devil.html">Highest Rated</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Critic <span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="movie-pages/critic.html">Favorite Critics</a></li>
+              <li><a href="movie-pages/critic.html">Highest Rated Critics</a></li>
+              <li><a href="movie-pages/signup.html">Be a Critic</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Faq <span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="#about">About Rank</a></li>
+              <li><a href="#howto">How to Rank</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Follow Us <span class="caret"></span></a>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="#">Facebook</a></li>
+              <li><a href="#">Twitter</a></li>
+              <li><a href="#">Instagram</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="navbar-form navbar-right" role="search">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Search">
+          </div>
+          <a href="movie-pages/signup.html"><button type="button" class="btn btn-default navbar-right">Sign Up</button></a>
+          <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+            Login
+            <span class="caret"></span>
+          </button>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Login With Facebook</a></li>
+            <li><a href="#">Login with Google+</a></li>
+          </ul>
+        </form><!-- /.navbar-collapse -->
+      </div>
+    </nav>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <div class="col-md-6 trending">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <!-- Indicators -->
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+            <li data-target="#myCarousel" data-slide-to="3"></li>
+          </ol>
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <a
+                      href="movie-pages/bitter.html"><img class="img-responsive" src="images/bittersweet.jpg" alt="bittersweet"></a>
+              <div class="carousel-caption">
+                <h3>A Bittersweet Life</h3>
+                <p>There is nothing bitter about the action in this film</p>
+              </div>
+            </div>
+            <div class="item">
+              <a href="movie-pages/classic.html"><img class="img-responsive" src="images/classic.jpg" alt="classic"></a>
+              <div class="carousel-caption">
+                <h3>The Classic</h3>
+                <p>How did you feel about this Drama?</p>
+              </div>
+            </div>
+
+            <div class="item">
+              <a href="movie-pages/fist.html"><img class="img-responsive" src="images/crying-fist.jpg" alt="cryingfist"></a>
+              <div class="carousel-caption">
+                <h3>Crying Fist</h3>
+                <p>When iron wills become immovable</p>
+              </div>
+            </div>
+
+            <div class="item">
+              <a href="movie-pages/moment.html"><img class="img-responsive" src="images/a-moment-to-remember-2.jpg"
+                                         alt="Flower"></a>
+              <div class="carousel-caption">
+                <h3>A Moment to Remember</h3>
+                <p>What do you remember about this movie?</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Left and right controls -->
+          <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+        <div class="row">
+          <div class="about-padding">
+            <div class="col-md-12 signup-form">
+              <h3 id="about">About Rank Kimchi</h3>
+              <p>Rank Kimchi was created for the Korean movie enthusiast.  Focused on the modern cinematography of Korea, users can be critics on our featured selected titles.  Users will be able to critique not only movies, but also other users.
+                This way common users can gain authority and a voice by ranking higher.  Our ranks will include critic
+                ranking, movie ranking, and movie critique rankings.  Feel free to leave your input, because everyone else
+                will!</p>
+            </div>
+            <div class="col-md-12 signup-form">
+              <h3 id="howto">How to Rank Kimchi</h3>
+              <p>In Rank Kimchi, we wanted to provide our users with an easy way to create polls on almost everything.  Our
+                highest ranks and will appear in our rankiest ranks based on the categories: movie, critic, or critique.
+                It's very easy!  Just press the <img src="images/thumbsup-text.png"/> to rank someone up, or press
+                <img src="images/thumbsdown-text.png"/> to rank down.  We set up crazy algorithms to automatically create
+                polls, so you don't have to do the math.  All you have to do is write, vote, or both!</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 criticspot">
+        <a href="movie-pages/critic.html"><img class="img-responsive img-rounded" src="images/anton-spotlight.jpg"/></a>
+        <div class="carousel-caption">
+          <h3>Critic Spotlight</h3>
+          <p>Critique your own movie or critics</p>
+        </div>
+      </div>
+
+      <div class="col-md-3">
+        <div class="col-md-12 weekly-polls">
+          <ol>
+            <h5><strong>Rankiest Rank</strong></h5>
+            <li><a href="movie-pages/devil.html">I Saw the Devil</a></li>
+            <li><a href="movie-pages/nowhere.html">The Man from Nowhere</a></li>
+            <li><a href="movie-pages/king.html">The King and the Clown</a></li>
+            <li><a href="movie-pages/masq.html">Masquerade</a></li>
+            <li><a href="movie-pages/carnival.html">A Dirty Carnival</a></li>
+          </ol>
+        </div>
+        <div class="col-md-12 weekly-polls margin-fix">
+          <ol>
+            <h5><strong>Currently Trending</strong></h5>
+            <li><a href="movie-pages/bitter.html">Bittersweet Life</a></li>
+            <li><a href="movie-pages/classic.html">The Classic</a></li>
+            <li><a href="movie-pages/fist.html">Crying Fist</a></li>
+            <li><a href="movie-pages/moment.html">A Moment to Remember</a></li>
+            <li><a href="movie-pages/friend.html">Friend</a></li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<footer class="well">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="col-md-4 rk-foot">
+        <p><strong>Rank Kimchi!</strong></p>
+        <a><img src="images/rankkimchiguy_360.png"/></a>
+        <p><em>You Rank It</em></p>
+      </div>
+      <div class="col-md-4 rk-foot">
+        <p><strong>Contact</strong></p>
+        <p>1691 Kettering St</p>
+        <p>Irvine, CA 92614</p>
+        Email: <a class="email" href="mailto:edwarddong86@gmail.com">edwarddong86@gmail.com</a>
+        <p></p>
+      </div>
+      <div class="col-md-4 rk-foot">
+        <p><strong>Follow Us</strong></p>
+        </br>
+        <a href="www.facebook.com"><img src="images/download.png"/></a>
+        &nbsp;&nbsp;
+        <a href="www.twitter.com"><img src="images/twitter.png"/></a>
+        &nbsp;&nbsp;
+        <a href="www.instragram.com"><img src="images/instagram.png"/></a>
+        &nbsp;&nbsp;
+      </div>
+      <div class="col-md-12 copyright">
+        <p>Copyright &copy; Rank Kimchi &nbsp;&nbsp;2015</p>
+      </div>
+    </div>
+  </div>
+</footer>
+</div>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+</body>
+</html>

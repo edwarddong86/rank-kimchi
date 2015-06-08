@@ -1,0 +1,107 @@
+
+* { font-family: helvetica, arial, sans-serif }
+
+body { background-color: #6c939f }
+
+a {color: #6c939f }
+
+
+.navbar {
+  background-color: #aa4a39;
+  border-color: #aa4a39;
+  padding-right: 15px;
+  margin-bottom: 0;
+  border-radius: 0 0 5px 5px;
+}
+
+.navbar-brand {
+  padding-top: 0;
+  height: 55px;
+}
+
+.navbar-default .navbar-nav>li>a { color: #ffd5d1 }
+
+.btn {
+  background-color: #81af36;
+  color: #dfefc4;
+}
+
+.carousel { margin-top: 20px }
+
+.rk-foot {text-align: center }
+
+footer.well {
+  margin-top: 20px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-radius: 5px 5px 0 0;
+  background-color: #81af36;
+  color: #dfefc4;
+  border-color: #4c7513;
+}
+
+.copyright {
+  border-top: solid 1px #61950c;
+  text-align: center;
+}
+
+.criticspot {
+  height: 350px;
+  padding-top: 20px;
+}
+
+.weekly-polls {
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  background-color: #022835;
+  color: #6c939f;
+}
+
+.signup-form {
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 0;
+  background-color: #aa4a39;
+  color: #dbdbdb;
+}
+
+.signup-legend {
+  border-radius: 10px;
+  border-bottom: 0;
+  background-color: #81af36;
+  color: #c9ea9c;
+  text-align: center;
+}
+
+.rank-rank { color: #4c7513 }
+
+.rank-raw { color: #aa4a39 }
+
+.quote-bubble {
+  border-radius: 30px;
+  padding: 30px;
+  font-style: italic;
+  box-shadow: 4px 4px 6px #022835;
+  background-color: #dbdbdb;
+}
+
+.critic-reviews-header {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+#about { text-align: center }
+
+.margin-fix {
+  margin-top: 0;
+}
+
+.about-padding {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+a.email { color: #dfefc4 }
+
